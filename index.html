@@ -1,17 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Honda-CBR-Bootstrap</title>
     <!-- CSS link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <!-- FontAwesome CDN Link -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">    
 </head>
+
 <body>
-    <h1>honda-cbr</h1>
+    <header>
+        <section class="container-fluid">
+            <div id=" carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row p-4 d-flex justify-content-center align-items-center">
+                            <div class="col-12 col-md-6 col-lg-7 my-5 p-5">
+                                <h6>Computer-controlled digital transistorized with electronic advance</h6>
+                                <h1 class="fw-bold mt-3">Honda CBR 300R</h1>
+                                <p class="mt-4">Amet minim mollit non deserunt ullamco est sit aliqua<br>
+                                    dolor do amet sint. Velit officia consequat duis enim velit<br>
+                                    mollit. Exercitation veniam consequat sunt nostrud amet</p>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop">
+                                    Purchase
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel">HONDA-CBR</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Honda CBR 150R 2021 Indonesia can be considered as the most hyped sports
+                                                bike of 2021. The bike’s announcement took the biking community by
+                                                storm. People had been waiting anxiously for the bike. As soon as the
+                                                news came out that the bike has reached Bangladeshi soil, people
+                                                went bonkers.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Understood</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-5 ms-0">
+                                <img src="images/header-bike.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+    </header>
+
+    <!-- Featured section -->
+<main >
+    <section>
+        <div class="container">
+            <div>
+                <h1 class="fw-bold mt-5 text-center"><span style="color:black;">Featured Bikes 2021</span></h1>
+                <h6 class="text-center"><span style="color:#FA804C;"> Best Bike Collection</span></h6>
+            </div>
+            <div class="scale d-flex justify-content-center gap-5 mt-5 my-4">
+                <div class="col-sm-12 col-lg-4">
+                    <img src="images/bike-4.jpg" alt="...">
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <img class="coords" src="images/feature-bike.jpg" alt="...">
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <img src="images/bike-4.jpg" alt="...">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- card section -->
+    <section>
+        <!-- <div class="container-fluid">
+            <div class="intro">
+                <h1 class="text-center mt-5">Happy<span style="color:#FA804C;">Clients says</span></h1>
+            </div>
+            <div class="row people shadow border-3">
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box"><img class="rounded-circle" src="images/user-1.png">
+                        <p>Slate helps you see how <br>
+                            many more days you need <br>
+                            to work to reach your financial <br>
+                            goal for the month and year</p>
+                            <div class="ratings mt-3"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                            <div class="review mt-5 mb-5">
+                        <h3 class="name"><span style="color:#23A6F0">Regina Miles</span></h3>
+                        <p class="title">Banker</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box"><img class="rounded-circle" src="images/user-2.png>
+                        <h3 class="name">Emily Clark</h3>
+                        <p class="title">Artist</p>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box"><img class="rounded-circle" src="assets/img/3.jpg">
+                        <h3 class="name">Carl Kent</h3>
+                        <p class="title">Stylist</p>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <section class="container mx-auto my-4 p-3">
+        <div class="row row-cols-1 row-cols-md-3 g-4 p-4">
+            <div class="col">
+                <div class="card w-12 p-2 shadow p-3 mb-5">
+                    <img class="bg-light rounded" src="images/user-1.png" class="card-img-top" alt="...">
+                    <div class="card-body ps-1">
+                        <p class="card-text">Slate helps you see how <br>
+                            many more days you need <br>
+                            to work to reach your financial <br>
+                            goal for the month and year.
+                        </p>
+                    </div>
+                    <div class="ratings mt-3"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                            <div class="review mt-5 mb-5">
+                    <h3 class="name"><span style="color:#23A6F0">Regina Miles</span></h3>
+                    <p class="title">Banker</p>
+                </div>
+            </div>
+    </section>
+</main>
 
     <!-- bootstrap link -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

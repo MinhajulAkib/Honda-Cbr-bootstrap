@@ -1,0 +1,22 @@
+.container-fluid{
+    background-color: #264653;;
+}
+h1,h6,p{
+    color: #FFFFFF;
+}
+.btn{
+    color: #FFFFFF;
+    background-color: #E76F51 !important;
+    border-radius: 5px;
+}
+.scale img{
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    width: 288px;
+    height: 243px;
+}
+.coords{
+    filter: grayscale(0) !important;
+    -webkit-filter: grayscale(0) !important;
+}
+
