@@ -176,7 +176,7 @@
                 </h1>
                 <div class="row gx-4">
                     <div class="col-lg-6 col-sm-12 my-5 ">
-                    <div class="w-75 mx-auto"><img class="img-fluid" src="images/faq.png" alt=""></div>
+                        <div class="w-75 mx-auto"><img class="img-fluid" src="images/faq.png" alt=""></div>
                     </div>
                     <div class="d-flex align-items-center col-lg-6 col-sm-12 my-5">
 
@@ -262,9 +262,53 @@
                 </div>
             </div>
         </section>
+        <!-- contact section -->
+        <section>
+            <div class="container contact-form">
+                <form method="">
+                    <h1 class="text-center"><span style="color:rgb(50, 17, 238); ">Contact US</span></h1>
+                    <h3 class="text-center py-3">Drop Us a Message</h3>
+                    <div class="row">
+                        <div class="col-md-6 gap-2">
+                            <div class="form-group p-2">
+                                <input type="text" name="txtName" class="form-control" placeholder="Your Name *"
+                                    value="" />
+                            </div>
+                            <div class="form-group p-2">
+                                <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *"
+                                    value="" />
+                            </div>
+                            <div class="form-group p-2">
+                                <input type="text" name="txtPhone" class="form-control"
+                                    placeholder="Your Phone Number *" value="" />
+                            </div>
+                            <div class="form-group p-2">
+                                <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group p-2">
+                                <textarea name="txtMsg" class="form-control" placeholder="Your Message *"
+                                    style="width: 100%; height: 150px;"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+        </section>
+        <!-- Location -->
+        <section>
+            <h1 class="text-center my-3 col-12 col-lg-11 shadow-5"><span style="color:rgb(50, 17, 238);">Bikers Tracking map</span></h1>
+            <hr>
+            <!--Google map-->
+            <div id="map-container-google-3" class="z-depth-1-half map-container-3">
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1877064.1723663877!2d89.99427605509806!3d23.237957009121406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!3m2!1d23.810332!2d90.4125181!4m5!1s0x30acd7a430a9d877%3A0xaa12d81b3b76e1cb!2sChittagong%20University%2C%20Chittagong%20University%20Road%2C%20Chattogram!3m2!1d22.471844299999997!2d91.7981291!5e0!3m2!1sen!2sbd!4v1627532502317!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            </div>
+        </section>
     </main>
     <footer class="py-5">
-        <div class="container-fluid bg-dark">
+        <div class="container-fluid">
             <h6 class="text-white text-center">@2021 bike. All rights reserved</h6>
         </div>
     </footer>

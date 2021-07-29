@@ -19,4 +19,16 @@ h1,h6,p{
     filter: grayscale(0) !important;
     -webkit-filter: grayscale(0) !important;
 }
-
+.map-container-3{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-3 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
