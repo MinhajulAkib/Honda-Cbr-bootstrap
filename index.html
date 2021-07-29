@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    <!-- header section -->
     <header>
         <section class="container-fluid">
             <div id=" carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -27,7 +28,6 @@
                                 <p class="mt-4">Amet minim mollit non deserunt ullamco est sit aliqua<br>
                                     dolor do amet sint. Velit officia consequat duis enim velit<br>
                                     mollit. Exercitation veniam consequat sunt nostrud amet</p>
-                                <!-- Button trigger modal -->
                                 <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                     data-bs-target="#staticBackdrop">
                                     Purchase
@@ -69,28 +69,33 @@
 
     <!-- Featured section -->
     <main>
-        <section>
+        <section class="my-5">
             <div class="container">
-                <div>
-                    <h1 class="fw-bold mt-5 text-center"><span style="color:black;">Featured Bikes 2021</span></h1>
-                    <h6 class="text-center"><span style="color:#FA804C;"> Best Bike Collection</span></h6>
+                <div class="py-3 mx-auto text-center">
+                    <h2>Fetured Bikes 2021</h2>
+                    <p class="text-danger mb-1">Best Bike Collection</p>
+                    <div class="line mx-auto"></div>
                 </div>
-                <div class="scale d-flex justify-content-center gap-5 mt-5 my-4">
-                    <div class="col-sm-12 col-md-12 col-lg-4">
-                        <img src="images/bike-4.jpg" alt="...">
+                <div class="row my-5 gx-5">
+                    <div class="scale col-lg-4 col-sm-12 my-3">
+                        <div class="w-75 mx-auto"><img class="img-fluid filter" src="images/feature-bike.jpg" alt="">
+                        </div>
                     </div>
-                    <div class="col-sm-12 col-md-12 col-lg-4">
-                        <img class="coords" src="images/feature-bike.jpg" alt="...">
+                    <div class="col-lg-4 col-sm-12 my-3">
+                        <div class="w-75 mx-auto"><img class="img-fluid" src="images/feature-bike.jpg" alt="">
+                        </div>
                     </div>
-                    <div class="col-sm-12 col-md-12 col-lg-4">
-                        <img src="images/bike-4.jpg" alt="...">
+                    <div class="scale col-lg-4 col-sm-12 my-3">
+                        <div class="w-75 mx-auto"><img class="w-100 img-fluid filter" src="images/feature-bike.jpg"
+                                alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
         <!-- card section -->
         <section class=" py-5">
-
             <div class="container">
                 <h1 class="text-center my-5 clientsay fw-bold"><span style="color:black;">Happy</span>
                     <span style="color:#FA804C;">Clients Says</span>
@@ -105,7 +110,7 @@
                                     to work to reach your financial
                                     goal for the month and year.</span>
                             </p>
-                            <div class="text-center my-4 starIcon">
+                            <div class="text-center my-4 star">
                                 <span style="color:#FA804C"><i class="fas fa-star"></i></span>
                                 <span style="color:#FA804C"><i class="fas fa-star"></i></span>
                                 <span style="color:#FA804C"><i class="fas fa-star"></i></span>
@@ -127,7 +132,7 @@
                                     goal for the month and year.</span>
                             </p>
 
-                            <div class="text-center my-4 starIcon">
+                            <div class="text-center my-4 star">
                                 <span style="color:#FA804C"><i class="fas fa-star"></i></span>
                                 <span style="color:#FA804C"><i class="fas fa-star"></i></span>
                                 <span style="color:#FA804C"><i class="fas fa-star"></i></span>
@@ -151,7 +156,7 @@
                                     goal for the month and year.</span>
                             </p>
 
-                            <div class="text-center my-4 starIcon">
+                            <div class="text-center my-4 star">
                                 <span style="color:#FA804C"><i class="fas fa-star"></i></span>
                                 <span style="color:#FA804C"><i class="fas fa-star"></i></span>
                                 <span style="color:#FA804C"><i class="fas fa-star"></i></span>
@@ -168,9 +173,7 @@
         </section>
         <!-- Frequently asked question section -->
         <section class="py-5">
-
             <div class="container">
-
                 <h1 class="text-center my-5 clientsay fw-bold"><span style="color:black;">Frequently Asked </span>
                     <span style="color:#FA804C">Question</span>
                 </h1>
@@ -295,18 +298,22 @@
                     </div>
                 </form>
         </section>
-        <!-- Location -->
+        <!-- Location section -->
         <section>
-            <h1 class="text-center my-3 col-12 col-lg-11 shadow-5"><span style="color:rgb(50, 17, 238);">Bikers Tracking map</span></h1>
+            <h1 class="text-center my-3 col-12 col-lg-11 shadow-5"><span style="color:rgb(50, 17, 238);">Bikers Tracking
+                    map</span></h1>
             <hr>
             <!--Google map-->
             <div id="map-container-google-3" class="z-depth-1-half map-container-3">
-                
-                <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1877064.1723663877!2d89.99427605509806!3d23.237957009121406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!3m2!1d23.810332!2d90.4125181!4m5!1s0x30acd7a430a9d877%3A0xaa12d81b3b76e1cb!2sChittagong%20University%2C%20Chittagong%20University%20Road%2C%20Chattogram!3m2!1d22.471844299999997!2d91.7981291!5e0!3m2!1sen!2sbd!4v1627532502317!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1877064.1723663877!2d89.99427605509806!3d23.237957009121406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!3m2!1d23.810332!2d90.4125181!4m5!1s0x30acd7a430a9d877%3A0xaa12d81b3b76e1cb!2sChittagong%20University%2C%20Chittagong%20University%20Road%2C%20Chattogram!3m2!1d22.471844299999997!2d91.7981291!5e0!3m2!1sen!2sbd!4v1627532502317!5m2!1sen!2sbd"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
             </div>
         </section>
     </main>
+    <!-- footer section -->
     <footer class="py-5">
         <div class="container-fluid">
             <h6 class="text-white text-center">@2021 bike. All rights reserved</h6>

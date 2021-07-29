@@ -10,8 +10,8 @@ h1,h6,p{
     border-radius: 5px;
 }
 .scale img{
-    filter: grayscale(1);
-    -webkit-filter: grayscale(1);
+    filter: grayscale(3);
+    -webkit-filter: grayscale(3);
     width: 288px;
     height: 243px;
 }
@@ -24,8 +24,8 @@ h1,h6,p{
     padding-bottom:56.25%;
     position:relative;
     height:0;
-    }
-    .map-container-3 iframe{
+}
+.map-container-3 iframe{
     left:0;
     top:0;
     height:100%;
